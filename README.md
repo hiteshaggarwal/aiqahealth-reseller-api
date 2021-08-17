@@ -1,6 +1,10 @@
 # Introduction
 
-The aiqa-health reseller api is a JSON API that surfaces all of the activities of a reseller.
+The aiqa-health reseller api is a JSON API that surfaces all of the activities of a reseller. This API uses bearer authentication (token based authentication).
+
+Add below header for authorization.
+
+`Authorization: Bearer ACCESS_TOKEN`
 
 ## Endpoints
 
